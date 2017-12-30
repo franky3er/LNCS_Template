@@ -52,7 +52,7 @@ Matrikelnummer: 741827\\\\
 
 
 \subsection{Technology Acceptance Model}
-Das \textit{Technology Acceptance Model} \cite{Zitat01}, kurz TAM, ist ein von Davis entwickeltes Akzeptanzmodell, welches auf dem sozialpsychologischem Modell \textit{Theory of Reasond Action} (TRA) von Ajzen und Fishbein \cite{Zitat04} basiert. Es versucht Aussagen darüber treffen zu können warum eine Technologie von einer Person akzeptiert wird oder nicht. \\
+Das \textit{Technology Acceptance Model} \cite{Zitat01}, kurz TAM, ist ein von von Fred D. Davis entwickeltes Akzeptanzmodell, welches auf dem sozialpsychologischem Modell \textit{Theory of Reasond Action} (TRA) von Ajzen und Fishbein \cite{Zitat04} basiert. Das Modell zielt darauf ab, Erkenntnisse darüber zu gewinnen, ob und warum Personen Technologien akzeptieren oder diese ablehnen. \\
 Dabei wird angenommen, dass eine Person mit positiver Nutzungseinstellung zur Technologie diese auch tatsächlich verwendet. (Vgl. \cite[p. 237]{Zitat03}) Diese Nutzungseinstellung hängt wiederum maßgeblich von den Faktoren 'wahrgenommener Nutzen' und 'wahrgenommener Bedienungskomfort' ab. \\
 Der 'wahrgenommene Nutzen' beschreibt das subjektiv Empfinden, dass sich eine Technologie positiv auf die Steigerung der eigenen Arbeitsleistung in einem organisatorischem Kontext auswirkt.  (Vgl. \cite[p. 320]{Zitat02}) \\
 Der 'wahrgenommene Bedienungskomfort' bezeichnet das subjektive Empfinden, dass die Verwendung einer Technologie mit wenig Aufwand verbunden ist, bzw. dass die Technologie einfach zu benutzen ist. (Vgl. \cite[p. 320]{Zitat02}) \\
@@ -67,7 +67,10 @@ Abbildung 1 illustriert das Modell.
 
 
 \subsection{Digitale Signaturen}
-
+Digitale Signaturen sind in Grenzen vergleichbar mit konventionellen Unterschriften auf Papier, welche über ein asymmetrisches kryptographisches Verfahren digitalisiert wurden. (Vgl. \cite[p. 297]{Zitat06}) Dieses asymmetrische Kryptosystem schließt drei Prozesse mit ein: den 'Unterschriftsprozess', den 'Authentifizierungsprozess' sowie den 'Prozess zur Sicherung der Datenintegrität'. (Vgl. \cite[p. 4]{Zitat05}) \\
+Beim 'Unterschriftsprozess', muss sich die Person, die das jeweilige Dokument unterzeichnen soll, zunächst identifizieren. Die Identifikation hängt von der Implementierung ab und kann dementsprechend unter anderem über eine PIN, ein Passwort oder auch einen sequenz-basierten Token-Code abgewickelt werden. Ist die Identität des Unterzeichners bestätigt, so erhält er ein Zertifikat mit seiner Identität und einem öffentlichem und privatem Schlüsselpaar, mit dem er das Dokument signieren kann. Dafür wird zunächst ein einzigartiger mathematischer Code aus dem Dokument generiert, der im Anschluss über den privaten Schlüssel verschlüsselt, bzw. ''signiert'', wird. Um den 'Unterschriftsprozess' abzuschließen wird das Dokument zusammen mit der Signatur (dem verschlüsseltem mathematischen Code) an den Empfänger gesandt. (Vgl. \cite[p. 4]{Zitat05}) \\
+Der Empfänger kann daraufhin im 'Authentifizierungsprozess' überprüfen, ob das Dokument auch von der richtigen Person unterzeichnet wurde. Dafür fordert er den öffentlichen Schlüssel der Unterzeichners an und kann daraufhin mit dem öffentlichen Schlüssel den mathematischen Code entschlüsseln. Das Entschlüsseln wird nur dann funktionieren, wenn das Dokument mit dem korrespondierenden privaten Schlüssel verschlüsselt wurde und kann daraus folgernd auch die Authentizität garantieren. (Vgl. \cite[p. 4]{Zitat05}) \\
+Zum Schluss wird im 'Prozess zur Sicherung der Datenintegrität' überprüft, ob das Dokument nach dem Signieren nicht mehr verändert wurde. Dafür wird erneut der mathematische Code aus dem Dokument generiert und mit dem im 'Authentifizierungsprozess' entschlüsselten mathematischen Code verglichen. Beide müssen identisch sein um sicher zu sein, dass das Dokument nach dem Unterschreiben nicht modifiziert wurde.  (Vgl. \cite[p. 4]{Zitat05})
 
 
 \bibliographystyle{amsalpha}
