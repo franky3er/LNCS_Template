@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.3)  27 FEB 2018 21:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.3)  27 FEB 2018 21:23
 entering extended mode
 **./prodis.tex
 (prodis.tex
@@ -816,62 +816,27 @@ Package pdftex.def Info: Requested size: 332.8376pt x 104.78964pt on input line
  71.
  (prodis.bbl
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 2.
+(babel)             in language append on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 2.
+(babel)             in language append on input line 1.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 2.
+(babel)             in language append on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 2.
+(babel)             in language append on input line 1.
  [4]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 2.
+(babel)             in language append on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 2.
+(babel)             in language append on input line 1.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 2.
+(babel)             in language append on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 2.
+(babel)             in language append on input line 1.
  [5 <./img/abbildung1.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 2.
+(babel)             in language append on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 2.
-
-Underfull \hbox (badness 1881) in paragraph at lines 23--30
-[]\OT1/cmr/m/sc/10 Bundeskriminalamt (Hg.)\OT1/cmr/m/n/10 :  \OT1/cmr/m/it/10 P
-o-li-zei-li-che Kri-mi-nal-sta-tis-tik
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--30
-\OT1/cmr/m/n/10 --  In: []$\OT1/cmtt/m/n/10 https : / / www . bka . de / Shared
-Docs / Downloads / DE /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--30
-\OT1/cmtt/m/n/10 Publikationen / PolizeilicheKriminalstatistik / 2016 /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--30
-\OT1/cmtt/m/n/10 pks2016ImkBericht . pdf ? _ _ blob = publicationFile & v = 8$[
-]
- []
-
-
-Underfull \hbox (badness 1082) in paragraph at lines 50--56
-[]\OT1/cmr/m/sc/10 Gruhn\OT1/cmr/m/n/10 , V. ; \OT1/cmr/m/sc/10 Wolff-Marting\O
-T1/cmr/m/n/10 , V. ; \OT1/cmr/m/sc/10 K[]ohler\OT1/cmr/m/n/10 , A. ; \OT1/cmr/m
-/sc/10 Haa-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--77
-\OT1/cmtt/m/n/10 extthoughtleadership / 20150608 _ ADL _ DigitalSignatures _
- []
-
+(babel)             in language append on input line 1.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
 Package babel Info: Redefining ngerman shorthand "|
@@ -894,11 +859,11 @@ Package rerunfilecheck Info: File `prodis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
  ) 
 Here is how much of TeX's memory you used:
- 6493 strings out of 493312
- 92446 string characters out of 3138900
- 193576 words of memory out of 3000000
- 9938 multiletter control sequences out of 15000+200000
- 9974 words of font info for 35 fonts, out of 3000000 for 9000
+ 6468 strings out of 493312
+ 91904 string characters out of 3138900
+ 192133 words of memory out of 3000000
+ 9923 multiletter control sequences out of 15000+200000
+ 9806 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  32i,7n,32p,697b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
@@ -908,13 +873,11 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on prodis.pdf (6 pages, 219560 bytes).
+/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on prodis.pdf (6 pages, 177492 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 24 named destinations out of 1000 (max. 500000)
+ 108 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
